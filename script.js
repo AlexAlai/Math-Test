@@ -106,3 +106,7 @@ document.getElementById("level").onchange = function () {
 document.querySelector(".stats").onclick=function(){
   alert (`correct:${correct}\nincorrect:${incorrect}`)
 }
+document.querySelector(".reset").onclick=function(){
+  correct=0
+  incorrect=0
+}
